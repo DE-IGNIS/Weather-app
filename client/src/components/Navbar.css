@@ -1,0 +1,28 @@
+/* Navbar.css */
+.navbar {
+  padding: 1rem 0;
+  background: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.nav-link {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link.active {
+  color: #e53935;
+  border-bottom: 2px solid #e53935;
+}
+
+.nav-link:hover {
+  color: #1565c0;
+}
