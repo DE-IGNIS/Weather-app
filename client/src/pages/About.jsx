@@ -3,7 +3,7 @@ function About() {
     <>
       <div>
         <h3>Message from creator: </h3>
-        <p></p>
+        <p>Website is still in development</p>
       </div>
     </>
   );
